@@ -14,7 +14,7 @@
 cd vnc && ./build-image.sh
 ```
 
-## Run docker container:
+### Run docker container:
 
 ```sh
 # Run kali-linux-full
