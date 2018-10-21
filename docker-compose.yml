@@ -1,9 +1,18 @@
 version: '3'
 services:
   kali:
-    build: .
+    image: skyjia/kali-docker-full:latest
     cap_add:
       - NET_ADMIN
     stdin_open: true
     tty: true
     network_mode: "host"
+  kali-vnc:
+    image: skyjia/kali-docker-full-vnc:latest
+    cap_add:
+      - NET_ADMIN
+    stdin_open: true
+    tty: true
+    ports:
+      - "5901:5901"
+      - "6080:6080"
