@@ -1,4 +1,4 @@
-#  Linux Full Docker Image
+#  Kali Linux Full Docker Image
 
 ![Kali image with kali-linux-full metapackage installed.](v.jpg)
 
