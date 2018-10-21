@@ -1,8 +1,6 @@
 # Kali Linux Full Docker Image
 
-## Description
-
-Kali image with kali-linux-full metapackage installed.
+![Kali image with kali-linux-full metapackage installed.](v.jpg)
 
 ## Usage
 
