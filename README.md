@@ -11,7 +11,8 @@
 ./build-image.sh
 
 # Build docker image with VNC server
-cd vnc && ./build-image.sh
+cd vnc
+./build-image.sh
 ```
 
 ### Run docker container:
